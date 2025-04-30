@@ -58,6 +58,10 @@ section {
     font-size: 4vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
@@ -71,7 +75,19 @@ section.imagem {
 section.imagem > p {
     display: inline-block; /*Esta ação faz com que a caixa se adapte ao tamanho do conteudo*/
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.548);
+    background-color: rgba(0, 0, 0, 0.705);
+    text-shadow: 2px 2px black;
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
 }
 
 footer {
