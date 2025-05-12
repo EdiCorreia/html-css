@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /*configurações deitado*/
+
+body {
+    background: url(../imagens/medium-shot-woman-laying-couch.jpg);
+    background-position: left bottom;
+}
